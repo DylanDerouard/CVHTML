@@ -1,0 +1,99 @@
+body {background-color:rgb(211,211,211);
+}
+
+.tete {text-align:center;
+}
+
+
+.bac {text-align:center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(169,169,169);
+    border-style:double;
+    width: 200px;
+       
+}
+
+
+.dgie{text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2%;
+    background-color: rgb(169,169,169);
+    border-style:double;
+    width: 200px;
+
+}
+
+.gie{text-align:center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 12px;
+    background-color: rgb(169,169,169);
+    border-style:double;
+    width: 200px;
+
+}
+
+
+.supu{text-align:center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:  rgb(169,169,169);
+    border-style:double;
+    width: 200px;
+}
+
+.entier{
+display: flex;
+}   
+
+
+.entier1{
+    display: flex;
+}
+
+.Skills {
+    text-align: center;  
+}
+
+.allskills{
+    display: flex;
+    direction:row;
+    text-align: center;
+    padding-left: 28%;
+}
+
+
+.language{
+    text-align: center;
+    padding-left: 52px;
+}
+
+.Professional{
+    
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+.personnel{
+    text-align: center;
+    padding-bottom:90px;
+}
+
+.brd{
+    border-color: blue;
+    border:solid;
+    border-width: 80px; 
+}
+
+
+.lorem{
+    font-style: italic;
+    font-size: 20px;
+    text-align:center;
+}
+
+.photo{
+    border-radius: 20%;
+}
