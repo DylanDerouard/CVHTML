@@ -98,3 +98,35 @@ display: flex;
     border-radius: 20%;
 }
 
+.flex{
+    display: flex;
+    
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.reseaux-sociaux img{
+    margin-right: 1em;
+    transition: all 0.3s ease-out;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    
+}
+.reseaux-sociaux img:hover{
+    filter: invert(100%); 
+    -webkit-filter: invert(100%); 
+}
+.reseaux-sociaux{
+    margin-top: 1.6em;
+    
+}   
+#img-insta{
+    width: 4em;
+    height: 4em;
+    
+}
+#img-linkedin{
+    width: 4em;
+    height: 4em;
+}
