@@ -59,9 +59,11 @@ display: flex;
 
 .allskills{
     display: flex;
-    direction:row;
     text-align: center;
-    padding-left: 28%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    
 }
 
 
@@ -119,6 +121,7 @@ display: flex;
 }
 .reseaux-sociaux{
     margin-top: 1.6em;
+    width: 13%;
     
 }   
 #img-insta{
