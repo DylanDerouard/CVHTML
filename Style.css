@@ -1,7 +1,225 @@
-body {background-color:rgb(211,211,211);
+body {
+    margin: 0px;
+    background-color: rgb(230, 230, 230);
+
+
 }
 
-.tete {text-align:center;
+
+.header {
+    background-color: rgb(59, 58, 58);
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+    flex-direction: column;
+
+}
+
+.photo {
+    border-radius: 50%;
+
+}
+
+.img-header {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: -33%;
+    border: 3px solid white;
+
+}
+
+.content {
+    /* background-color: gray; */
+}
+
+.social-network {
+
+    width: 80%;
+    height: 300px;
+    background-color: white;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.space {
+    height: 75px;
+}
+
+#img-insta,
+#img-linkedin {
+    width: 2em;
+    height: 2em;
+}
+
+.texte {
+    text-align: center;
+    width: 72%;
+    margin: 25px 0px;
+}
+
+.button {
+
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+
+}
+
+.download {
+
+    margin-right: 30px;
+}
+
+.download,
+.contact-me {
+    background-color: rgba(0, 206, 209, 0.849);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 5%;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.text-button {
+    padding: 6px 10px;
+
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.experience h2{
+    color: gray;
+}
+.experience-content {
+    display: flex;
+
+    flex-direction: row;
+}
+
+.card {
+    width: 500px;
+    height: 300px;
+    margin: 5px;
+    background-color: white;
+}
+.content-card:first-of-type{
+    margin-right: 35px;
+}
+.content-card:last-of-type{
+    margin-left: 35px;
+}
+.content-card:first-of-type .card:last-of-type{
+    margin-top:100px;
+}
+.content-card:last-of-type .card:first-of-type{
+    margin-top: 75px;
+}
+.content-card:last-of-type .card:last-of-type{
+    margin-top: 100px;
+}
+
+.card-header {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(58, 53, 52);
+
+    display: flex;
+    align-items: center;
+
+}
+
+.card-header h3 {
+    color: white;
+    margin-left: 20px;
+
+}
+
+.card-content {
+    margin-left: 20px;
+}
+
+.skills{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.skill-content{
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+}
+.skill-card{
+    width: 340px;
+    height: 460px;
+    background-color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+.skill-card:not(:last-of-type){
+    margin-right: 30px;
+
+}
+.skill-progress{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.skill-progress p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.progress-bar{
+    position: relative;
+    background-color: black;
+    height: 3px;
+    z-index: 0;
+}
+.progress-down{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    background-color: white;
+    height: 3px;
+    
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position:absolute;
+    top:-6px;
+    bottom:0;
+       
+}
+
+
+
+
+
+/* .tete {text-align:center;
 }
 
 
@@ -84,9 +302,7 @@ display: flex;
 }
 
 .brd{
-    border-color: blue;
-    border:solid;
-    border-width: 80px; 
+    
 }
 
 
@@ -96,9 +312,7 @@ display: flex;
     text-align:center;
 }
 
-.photo{
-    border-radius: 20%;
-}
+
 
 .flex{
     display: flex;
@@ -124,12 +338,7 @@ display: flex;
     width: 9%;
     
 }   
-#img-insta{
-    width: 4em;
-    height: 4em;
+
     
-}
-#img-linkedin{
-    width: 4em;
-    height: 4em;
-}
+
+ */
